@@ -29,6 +29,6 @@ public class NoteAndLength {
   }
 
   public boolean equals(NoteAndLength nal) {
-    return (nal.getNote() == this.note && nal.getLength() == this.length) ? true : false;
+    return nal.getNote() == this.note && nal.getLength() == this.length;
   }
 }
